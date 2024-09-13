@@ -1,15 +1,15 @@
 import { useState } from "react";
 
-export const Button=props=>{
-    const{text}=props;  //'text' is MimeTypeArray
+export const Button=()=>{
+    //const{text}=props;  //'text' is MimeTypeArray
 
     const[count, setCount ] = useState (0);
     function handlerButton(){
-        setCount(count+1);
+        setCount(count+5);
     }
     return(
         <button onClick={handlerButton}>
-            {text}{count}
+            {count}
         </button>
     );
 }
