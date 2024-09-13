@@ -4,12 +4,13 @@ import viteLogo from '/vite.svg'
 import './App.css'
 //import { WapperList } from './components/WrapperList'
 //import {List } from './components/List'
-import { Button} from './components/Button'
+//import { Button} from './components/Button'
+import {  RandomComponent} from './components/RandomComponent'
 function App() {
   
   return (
     <>
-      <Button/>
+      < RandomComponent/>
     </>
   )
 }
