@@ -1,18 +1,16 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
-//import { WapperList } from './components/WrapperList'
-//import {List } from './components/List'
-//import { Button} from './components/Button'
-import {  RandomComponent} from './components/RandomComponent'
-function App() {
-  
-  return (
-    <>
-      < RandomComponent/>
-    </>
-  )
-}
+//import React from 'react';
+import CompWithProps from './components/CompWithProps';
 
-export default App
+const App = () => {
+    return (
+        <div>
+            <h1>HOLA DESDE VITE</h1>
+            <CompWithProps />
+        </div>
+    );
+};
+
+export default App;
